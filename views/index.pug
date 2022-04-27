@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title #{title}
+  body
+    form(action="/sendmail", method="post")
+      p
+        label(for="email") Email: 
+        input#email(type="email", name="email")
+      p
+        input(type="submit", value="Send")

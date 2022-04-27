@@ -1,0 +1,23 @@
+{
+  "name": "email-verification-nodemailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-random-string": "^1.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20",
+    "nodemailer": "^6.0.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
